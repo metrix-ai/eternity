@@ -1,7 +1,7 @@
 name:
   eternity
 version:
-  0.1.4
+  0.2
 synopsis:
   Native event-sourcing database
 description:
@@ -56,7 +56,7 @@ library
     text >=1 && <2,
     directory >=1.3 && <2,
     foldl >=1.3.5 && <2,
-    potoki >= 2 && <2.1,
+    potoki >= 2.1 && <2.2,
     potoki-cereal >=0.3.0.1 && <0.4
 
 test-suite test
@@ -73,7 +73,7 @@ test-suite test
   build-depends:
     -- 
     eternity,
-    potoki >= 2.0.6.1 && < 2.1,
+    potoki >= 2.1 && < 2.2,
     potoki-cereal,
     cereal,
     -- testing:
